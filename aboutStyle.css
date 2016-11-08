@@ -1,0 +1,105 @@
+
+body {
+  margin: 0px;
+  min-width: 100%; 
+  min-height: 300px;
+}
+
+.header {
+  background-color: #FACC2E;
+  width: 100%;
+  padding: 15px 0px 0px 50px;
+  height: 90px;
+}
+
+.header img {
+  float: left;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header a h1 {
+  color: Black;
+  font-style: Times New Roman;
+  padding-bottom: 10px;
+}
+
+
+.nav {
+  margin-top: -16px;
+  padding-right: 0px;
+  background-color: #F3E2A9;
+  width: 100%;
+}
+
+.nav ul {
+  list-style: none;
+  height: 50px;
+}
+
+.nav ul li {
+  display: inline-block;
+  font-size: 2em; 
+  border-right: 1px solid black;
+  width: 24%;
+  height: 100%;
+  text-align: center;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.nav ul li a:hover {
+  color: white;
+}
+
+
+.nav ul #navbarLastLi {
+  border-right: 1px solid #666666;
+}
+
+
+footer {
+  text-align: center; 
+  width: 100%;
+  border-top: 1px solid #d3d3d3;
+  position:fixed;
+  bottom:0px;
+  font-family: Courier, Georgia, Times;
+}
+
+div .mainCSS {
+  width: %;
+  background-color: #FACC2E;
+
+
+}
+div .mainCSS .text {
+  width: 65%;
+  float: right;
+  font-weight: bold;
+  padding-right: 20px;
+  padding-left: 0px;
+  background-color: #FACC2E;
+
+  
+}
+div .mainCSS #images {
+    width: 30%;
+    float: left;
+    padding-left: 30px;
+}
+.clear {
+  clear: both;
+}
+
+.footer {
+  background-color: #FACC2E;
+  position: absolute;
+  bottom: 20px;
+}
